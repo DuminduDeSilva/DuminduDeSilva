@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
+import Top from "./topbutton/Top";
 // import Skills from "./skills/Skills";
 // import StackProgress from "./skillProgress/skillProgress";
 // import WorkExperience from "./workExperience/WorkExperience";
@@ -12,7 +13,6 @@ import Greeting from "./greeting/Greeting";
 // import Footer from "../components/footer/Footer";
 // import Talks from "./talks/Talks";
 // import Podcast from "./podcast/Podcast";
-// import Top from "./topbutton/Top";
 // import Twitter from "./twitter-embed/twitter";
 // import Profile from "./profile/Profile";
 
@@ -36,7 +36,7 @@ export default class Main extends Component {
         {/* <Twitter /> */}
         {/* <Podcast /> */}
 
-        {/* <Top /> */}
+        <Top />
       </div>
     );
   }
