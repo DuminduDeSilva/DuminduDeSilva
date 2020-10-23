@@ -4,6 +4,7 @@ import Greeting from "./greeting/Greeting";
 import Top from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import Footer from "../components/footer/Footer";
+import Skills from "./skills/Skills";
 // import Skills from "./skills/Skills";
 // import StackProgress from "./skillProgress/skillProgress";
 // import WorkExperience from "./workExperience/WorkExperience";
@@ -23,8 +24,8 @@ export default class Main extends Component {
       <div>
         <Header />
         <Greeting />
-        {/* <Skills />
-        <StackProgress />
+        <Skills />
+        {/*<StackProgress />
         <WorkExperience />
         <Projects />
         <StartupProject />
