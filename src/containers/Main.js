@@ -15,7 +15,7 @@ import StartupProject from "./StartupProjects/StartupProject";
 // import Projects from "./projects/Projects";
 // import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
-// import Blogs from "./blogs/Blogs";
+import Blogs from "./blogs/Blogs";
 // import Contact from "./contact/Contact";
 // import Talks from "./talks/Talks";
 // import Podcast from "./podcast/Podcast";
@@ -37,7 +37,7 @@ export default class Main extends Component {
         <Profile />
         <Footer />
 
-        {/* <Blogs /> */}
+        <Blogs />
         {/* <Talks /> */}
         {/* <Twitter /> */}
         {/* <Podcast /> */}
