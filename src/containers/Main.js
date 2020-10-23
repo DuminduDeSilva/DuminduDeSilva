@@ -8,6 +8,7 @@ import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
+import StartupProject from "./StartupProjects/StartupProject";
 // import Skills from "./skills/Skills";
 // import StackProgress from "./skillProgress/skillProgress";
 // import WorkExperience from "./workExperience/WorkExperience";
@@ -31,6 +32,7 @@ export default class Main extends Component {
         <StackProgress />
         <WorkExperience />
         <Projects />
+        <StartupProject />
         {/*<StartupProject />
         <Achievement /> */}
         <Profile />
